@@ -1,6 +1,8 @@
 DROP DATABASE Prueba;
 CREATE DATABASE Prueba;
 USE Prueba;
+
+//se crea la primera tabla con nombre T1
 CREATE TABLE T1
 (
 	idT1 int PRIMARY KEY NOT null,
@@ -10,6 +12,8 @@ CREATE TABLE T1
     C4T1 date,
     C5T1 varchar(2)
 );
+
+//se crea la primera tabla con nombre T2
 CREATE TABLE T2
 (
 	idT2 int PRIMARY KEY NOT null,
@@ -19,6 +23,7 @@ CREATE TABLE T2
     C4T2 date,
     C5T2 varchar(2)
 );
+ //se crea la primera tabla con nombre T3
 CREATE TABLE T3
 (
 	idT3 int PRIMARY KEY NOT null,
@@ -28,6 +33,7 @@ CREATE TABLE T3
     C4T3 date,
     C5T3 varchar(2)
 );
+//insercion de los datos a sus tablas.
 INSERT INTO `t1` (`idT1`, `C1T1`, `C2T1`, `C3T1`, `C4T1`, `C5T1`) 
 VALUES ('1', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
 		('2', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
