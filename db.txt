@@ -1,0 +1,54 @@
+DROP DATABASE Prueba;
+CREATE DATABASE Prueba;
+USE Prueba;
+CREATE TABLE T1
+(
+	idT1 int PRIMARY KEY NOT null,
+	C1T1 varchar(25),
+    C2T1 varchar(10),
+    C3T1 int(5),
+    C4T1 date,
+    C5T1 varchar(2)
+);
+CREATE TABLE T2
+(
+	idT2 int PRIMARY KEY NOT null,
+	C1T2 varchar(25),
+    C2T2 varchar(10),
+    C3T2 int(5),
+    C4T2 date,
+    C5T2 varchar(2)
+);
+CREATE TABLE T3
+(
+	idT3 int PRIMARY KEY NOT null,
+	C1T3 varchar(25),
+    C2T3 varchar(10),
+    C3T3 int(5),
+    C4T3 date,
+    C5T3 varchar(2)
+);
+INSERT INTO `t1` (`idT1`, `C1T1`, `C2T1`, `C3T1`, `C4T1`, `C5T1`) 
+VALUES ('1', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
+		('2', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
+        ('3', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
+        ('4', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
+        ('5', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
+        ('6', 'dato1', 'dato2', '3', '2022-10-11', 'carrera'),
+        ('7', 'dato1', 'dato2', '3', '2022-10-11', 'carrera');
+INSERT INTO `t2` (`idT2`, `C1T2`, `C2T2`, `C3T2`, `C4T2`, `C5T2`) 
+VALUES ('1', 'dato1', 'dato2', '3', '2022-10-12', 'carrera'),
+		('2', 'dato1', 'dato2', '3', '2022-10-12', 'carrera'),
+        ('3', 'dato1', 'dato2', '3', '2022-10-12', 'carrera'),
+        ('4', 'dato1', 'dato2', '3', '2022-10-12', 'carrera'),
+        ('5', 'dato1', 'dato2', '3', '2022-10-12', 'carrera'),
+        ('6', 'dato1', 'dato2', '3', '2022-10-12', 'carrera'),
+        ('7', 'dato1', 'dato2', '3', '2022-10-12', 'carrera');
+INSERT INTO `t3` (`idT3`, `C1T3`, `C2T3`, `C3T3`, `C4T3`, `C5T3`) 
+VALUES ('1', 'dato1', 'dato2', '3', '2022-10-13', 'carrera'),
+		('2', 'dato1', 'dato2', '3', '2022-10-13', 'carrera'),
+        ('3', 'dato1', 'dato2', '3', '2022-10-13', 'carrera'),
+        ('4', 'dato1', 'dato2', '3', '2022-10-13', 'carrera'),
+        ('5', 'dato1', 'dato2', '3', '2022-10-13', 'carrera'),
+        ('6', 'dato1', 'dato2', '3', '2022-10-13', 'carrera'),
+        ('7', 'dato1', 'dato2', '3', '2022-10-13', 'carrera');
